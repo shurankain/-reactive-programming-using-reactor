@@ -18,5 +18,4 @@ public class Movie {
         this.movie = movie;
         this.reviewList = reviewList;
     }
-
 }
