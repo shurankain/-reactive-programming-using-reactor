@@ -1,8 +1,8 @@
 package com.learnreactiveprogramming.service;
 
-import java.util.List;
-
 import static com.learnreactiveprogramming.util.CommonUtil.delay;
+
+import java.util.List;
 
 public class FluxAndMonoSchedulersService {
 

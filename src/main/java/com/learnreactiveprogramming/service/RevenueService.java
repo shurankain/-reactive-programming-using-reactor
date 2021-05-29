@@ -1,12 +1,12 @@
 package com.learnreactiveprogramming.service;
 
-import com.learnreactiveprogramming.domain.Revenue;
-
 import static com.learnreactiveprogramming.util.CommonUtil.delay;
+
+import com.learnreactiveprogramming.domain.Revenue;
 
 public class RevenueService {
 
-    public Revenue getRevenue(Long movieId){
+    public Revenue getRevenue(Long movieId) {
         delay(1000); // simulating a network call ( DB or Rest call)
         return Revenue.builder()
                 .movieInfoId(movieId)
